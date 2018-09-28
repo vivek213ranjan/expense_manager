@@ -1,24 +1,8 @@
-# README
+Expense Aggregator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this app we calculate expense group by category and weeks
 
-Things you may want to cover:
+We need to run rake db:seed to load random data to the database
 
-* Ruby version
+Only URL which is exposed is: /api/v1/expenses (GET)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
