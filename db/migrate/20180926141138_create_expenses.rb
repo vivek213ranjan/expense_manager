@@ -2,7 +2,7 @@ class CreateExpenses < ActiveRecord::Migration[5.2]
   def change
     create_table :expenses do |t|
       t.string :category
-      t.double :amount
+      t.float :amount
       t.datetime :date
 
       t.timestamps
